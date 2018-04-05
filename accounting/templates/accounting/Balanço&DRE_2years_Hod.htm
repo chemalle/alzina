@@ -1,0 +1,1442 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+{% block content %}
+
+
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="Balanço&amp;DRE_2years_Hod.fld/filelist.xml">
+<style id="Balanço&amp;DRE_2years_Hod_28412_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:"\.";}
+@page
+	{margin:.75in .71in .75in .71in;
+	mso-header-margin:.31in;
+	mso-footer-margin:.31in;
+	mso-horizontal-page-align:center;}
+.font5
+	{color:white;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;}
+.font6
+	{color:white;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style17
+	{mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	mso-style-name:Moeda;
+	mso-style-id:4;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+.style18
+	{mso-number-format:0%;
+	mso-style-name:Porcentagem;
+	mso-style-id:5;}
+.style21
+	{background:#F2F2F2;
+	mso-pattern:black none;
+	color:#3F3F3F;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:.5pt solid #3F3F3F;
+	mso-style-name:Saída;
+	mso-style-id:21;}
+.style19
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #4472C4;
+	border-left:none;
+	mso-style-name:"Título 1";
+	mso-style-id:16;}
+.style20
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #A2B8E1;
+	border-left:none;
+	mso-style-name:"Título 2";
+	mso-style-id:17;}
+.style16
+	{mso-number-format:"_\(* \#\,\#\#0\.00_\)\;_\(* \\\(\#\,\#\#0\.00\\\)\;_\(* \0022-\0022??_\)\;_\(\@_\)";
+	mso-style-name:Vírgula;
+	mso-style-id:3;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl63
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"mmm\/yy";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt dotted gray;
+	background:#333333;
+	mso-pattern:black none;
+	mso-protection:unlocked visible;
+	white-space:normal;}
+.xl64
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"mmm\\ yy";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt dotted gray;
+	background:#333333;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl65
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:10.0pt;
+	font-family:Verdana, sans-serif;
+	mso-font-charset:0;}
+.xl66
+	{mso-style-parent:style20;
+	color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #A2B8E1;
+	border-left:none;}
+.xl67
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl68
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl69
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl70
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl71
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl72
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl73
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl74
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-protection:unlocked visible;}
+.xl75
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:10.0pt;
+	font-family:Verdana, sans-serif;
+	mso-font-charset:0;
+	mso-protection:unlocked visible;}
+.xl76
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;}
+.xl77
+	{mso-style-parent:style21;
+	color:#3F3F3F;
+	font-weight:700;
+	border:.5pt solid #3F3F3F;
+	background:#F2F2F2;
+	mso-pattern:black none;}
+.xl78
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:.5pt dotted gray;
+	border-bottom:none;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl79
+	{mso-style-parent:style17;
+	color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #4472C4;
+	border-left:none;}
+.xl80
+	{mso-style-parent:style17;
+	color:white;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt dotted gray;
+	background:#333333;
+	mso-pattern:black none;
+	mso-protection:unlocked visible;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:10.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:none;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt dotted gray;
+	mso-protection:unlocked visible;}
+.xl82
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl83
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:10.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:.5pt solid gray;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid gray;
+	border-left:.5pt dotted gray;
+	mso-protection:unlocked visible;}
+.xl84
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:black none;}
+.xl85
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:black none;}
+.xl86
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl87
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:none;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt dotted gray;
+	mso-protection:unlocked visible;}
+.xl88
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:10.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt dotted gray;
+	mso-protection:unlocked visible;}
+.xl89
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:10.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl90
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	border-top:.5pt solid gray;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid gray;
+	border-left:.5pt dotted gray;
+	mso-protection:unlocked visible;}
+.xl91
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:10.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:none;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid gray;
+	border-left:.5pt dotted gray;
+	mso-protection:unlocked visible;}
+.xl92
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:black none;}
+.xl93
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:none;
+	border-bottom:2.0pt double windowtext;
+	border-left:none;}
+.xl94
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:center;}
+.xl95
+	{mso-style-parent:style0;
+	color:#222222;
+	font-size:13.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl96
+	{mso-style-parent:style0;
+	color:white;
+	font-size:10.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl97
+	{mso-style-parent:style18;
+	color:white;
+	mso-number-format:0%;}
+.xl98
+	{mso-style-parent:style0;
+	color:white;}
+.xl99
+	{mso-style-parent:style0;
+	color:white;
+	font-size:10.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl100
+	{mso-style-parent:style16;
+	color:white;
+	mso-number-format:"_\(* \#\,\#\#0\.00_\)\;_\(* \\\(\#\,\#\#0\.00\\\)\;_\(* \0022-\0022??_\)\;_\(\@_\)";}
+.xl101
+	{mso-style-parent:style20;
+	color:white;
+	font-size:13.0pt;
+	font-weight:700;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #A2B8E1;
+	border-left:none;}
+.xl102
+	{mso-style-parent:style20;
+	color:white;
+	font-size:13.0pt;
+	font-weight:700;
+	mso-number-format:"_\(\0022R$\0022* \#\,\#\#0\.00_\)\;_\(\0022R$\0022* \\\(\#\,\#\#0\.00\\\)\;_\(\0022R$\0022* \0022-\0022??_\)\;_\(\@_\)";
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #A2B8E1;
+	border-left:none;}
+.xl103
+	{mso-style-parent:style16;
+	mso-number-format:"_\(* \#\,\#\#0\.00_\)\;_\(* \\\(\#\,\#\#0\.00\\\)\;_\(* \0022-\0022??_\)\;_\(\@_\)";}
+.xl104
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	text-align:center;}
+.xl105
+	{mso-style-parent:style19;
+	color:#44546A;
+	font-size:24.0pt;
+	font-weight:700;
+	text-align:center;
+	vertical-align:top;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #4472C4;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl106
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#333333;
+	mso-pattern:black none;}
+.xl107
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#333333;
+	mso-pattern:black none;}
+.xl108
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#333333;
+	mso-pattern:black none;}
+.xl109
+	{mso-style-parent:style20;
+	color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #A2B8E1;
+	border-left:none;}
+.xl110
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:black none;}
+.xl111
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:silver;
+	mso-pattern:black none;}
+.xl112
+	{mso-style-parent:style0;
+	color:white;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.5pt solid #4472C4;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#333333;
+	mso-pattern:black none;}
+.xl113
+	{mso-style-parent:style0;
+	color:white;
+	font-size:10.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:1.5pt solid #4472C4;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#333333;
+	mso-pattern:black none;}
+.xl114
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt dotted gray;
+	mso-protection:unlocked visible;}
+.xl115
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\#\,\#\#0";
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt dotted gray;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-protection:unlocked visible;}
+.xl116
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:black none;}
+.xl117
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:black none;}
+.xl118
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border-top:none;
+	border-right:.5pt dotted gray;
+	border-bottom:none;
+	border-left:none;}
+.xl119
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Standard;}
+.xl120
+	{mso-style-parent:style17;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Standard;}
+.xl121
+	{mso-style-parent:style17;
+	color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	mso-number-format:Standard;
+	border:.5pt solid #3F3F3F;
+	background:#F2F2F2;
+	mso-pattern:black none;}
+.xl122
+	{mso-style-parent:style0;
+	color:windowtext;
+	font-size:11.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Standard;}
+.xl123
+	{mso-style-parent:style20;
+	color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	mso-number-format:Standard;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.5pt solid #A2B8E1;
+	border-left:none;}
+-->
+</style>
+</head>
+
+<body link="#0563C1" vlink="#954F72">
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--As seguintes informações foram geradas pelo Assistente para Publicação como
+Página da Web do Microsoft Excel.-->
+<!--Se o mesmo item for republicado a partir do Excel, todas as informações
+entre as marcas DIV serão substituídas.-->
+<!----------------------------->
+<!--INÍCIO DA SAÍDA DO 'ASSISTENTE PARA PUBLICAÇÃO COMO PÁGINA DA WEB' DO EXCEL
+-->
+<!----------------------------->
+
+<div id="Balanço&amp;DRE_2years_Hod_28412" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1612 style='border-collapse:
+ collapse;table-layout:fixed;width:1208pt'>
+ <col width=395 style='mso-width-source:userset;mso-width-alt:12629;width:296pt'>
+ <col width=259 style='mso-width-source:userset;mso-width-alt:8277;width:194pt'>
+ <col width=13 style='mso-width-source:userset;mso-width-alt:426;width:10pt'>
+ <col width=123 style='mso-width-source:userset;mso-width-alt:3925;width:92pt'>
+ <col width=111 style='mso-width-source:userset;mso-width-alt:3541;width:83pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:3669;width:86pt'>
+ <col width=43 style='mso-width-source:userset;mso-width-alt:1365;width:32pt'>
+ <col width=553 style='mso-width-source:userset;mso-width-alt:17706;width:415pt'>
+ <col width=115 style='mso-width-source:userset;mso-width-alt:3669;width:86pt'>
+ <tr height=28 style='height:21.0pt'>
+  <td colspan=5 height=28 class=xl104 width=901 style='height:21.0pt;
+  width:675pt'><a name="Area_de_impressao">ALZINA CORPORATION</a></td>
+  <td width=115 style='width:86pt'></td>
+  <td width=43 style='width:32pt'></td>
+  <td width=553 style='width:415pt'></td>
+ </tr>
+ <tr height=28 style='height:21.0pt'>
+  <td colspan=5 height=28 class=xl104 style='height:21.0pt'>MOEDA: USD</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=43 style='height:32.0pt'>
+  <td colspan=5 height=43 class=xl105 style='height:32.0pt'>Balanço Patrimonial</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td colspan=3 height=23 class=xl106 style='border-right:.5pt dotted gray;
+  height:17.0pt'>Periodo</td>
+  <td class=xl63 width=123 style='border-left:none;width:92pt'>dez/17</td>
+  <td class=xl64 width=111 style='border-left:none;width:83pt'>dez 16</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td></td>
+ </tr>
+ <tr height=24 style='height:18.0pt'>
+  <td colspan=3 height=24 class=xl109 style='height:18.0pt'>Ativo</td>
+  <td class=xl66>&nbsp;</td>
+  <td class=xl66>&nbsp;</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl67 style='height:17.0pt'>Ativo Circulante</td>
+  <td class=xl68>&nbsp;</td>
+  <td class=xl69>&nbsp;</td>
+  <td class=xl69>&nbsp;</td>
+  <td class=xl69>&nbsp;</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td><span style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl71>Caixa</td>
+  <td class=xl72></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl103><span style='mso-spacerun:yes'>   </span></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td colspan=2 class=xl76>Bancos<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl119 align=right>79.346,23</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td colspan=2 class=xl76>Investimentos de Curto Prazo</td>
+  <td class=xl119 align=right>6.394.683,27</td>
+  <td class=xl119 align=right>6.920.554,90</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td colspan=2 class=xl76>Antecipacao de despesas</td>
+  <td class=xl119></td>
+  <td class=xl119></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl74>Dividendos</td>
+  <td></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+  <td></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl74>Impostos</td>
+  <td></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl74>Pagamentos a fornecedores</td>
+  <td></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl71>Total Antecipacao de Despesas</td>
+  <td></td>
+  <td class=xl120 align=right>0,00</td>
+  <td class=xl120 align=right>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl71>Investimentos de Curto Prazo</td>
+  <td class=xl71></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl71>Emprestimos</td>
+  <td class=xl71></td>
+  <td class=xl119 align=right>1.000.000,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td colspan=3 height=21 class=xl77 style='height:16.0pt'>Total Ativo
+  Circulante</td>
+  <td class=xl121 align=right style='border-left:none'>7.474.029,50</td>
+  <td class=xl121 align=right style='border-left:none'>6.920.554,90</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>Ativo Imobilizado</td>
+  <td class=xl71></td>
+  <td class=xl72></td>
+  <td class=xl122></td>
+  <td class=xl122></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl76>BENS IMOVEIS</td>
+  <td class=xl72></td>
+  <td class=xl122 align=right>0,00</td>
+  <td class=xl122 align=right>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl76><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl72></td>
+  <td class=xl122><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl122><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td colspan=3 height=21 class=xl77 style='height:16.0pt'>Total Ativo Não
+  Circulante</td>
+  <td class=xl121 align=right style='border-left:none'>0,00</td>
+  <td class=xl121 align=right style='border-left:none'>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl77 style='height:16.0pt;border-top:none'>Total Ativos</td>
+  <td class=xl77 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl77 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl121 align=right style='border-top:none;border-left:none'>7.474.029,50</td>
+  <td class=xl121 align=right style='border-top:none;border-left:none'>6.920.554,90</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=24 style='height:18.0pt'>
+  <td colspan=3 height=24 class=xl109 style='height:18.0pt'>Passivos</td>
+  <td class=xl123>&nbsp;</td>
+  <td class=xl123>&nbsp;</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl71 style='height:17.0pt'>Passivo Circulante</td>
+  <td class=xl71></td>
+  <td class=xl72></td>
+  <td class=xl122></td>
+  <td class=xl122></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl76>Emprestimos</td>
+  <td class=xl72></td>
+  <td class=xl119 align=right>1.011.944,44</td>
+  <td class=xl119 align=right>25,49</td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl76>Fornecedores</td>
+  <td class=xl76></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>&nbsp;</td>
+  <td colspan=2 class=xl76 style='border-right:.5pt dotted gray'>Impostos a
+  recolher<span style='mso-spacerun:yes'> </span></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl70 style='height:16.0pt'>&nbsp;</td>
+  <td colspan=2 class=xl76 style='border-right:.5pt dotted gray'>Folha de
+  Pagamento</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+  <td class=xl75></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td colspan=3 height=21 class=xl77 style='height:16.0pt'>Total Passivo
+  Circulante</td>
+  <td class=xl121 align=right style='border-left:none'>1.011.944,44</td>
+  <td class=xl121 align=right style='border-left:none'>25,49</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl77 style='height:16.0pt;border-top:none'>Total Passivo</td>
+  <td class=xl77 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl77 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl121 align=right style='border-top:none;border-left:none'>1.011.944,44</td>
+  <td class=xl121 align=right style='border-top:none;border-left:none'>25,49</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=24 style='height:18.0pt'>
+  <td colspan=3 height=24 class=xl109 style='height:18.0pt'>Patrimonio Liquido</td>
+  <td class=xl123>&nbsp;</td>
+  <td class=xl123>&nbsp;</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl72 style='height:17.0pt'></td>
+  <td class=xl76>Capital Social</td>
+  <td class=xl78>&nbsp;</td>
+  <td class=xl119 align=right>6.678.820,43</td>
+  <td class=xl119 align=right>6.678.820,43</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl72 style='height:16.0pt'></td>
+  <td class=xl76>Capital Social a integralizar</td>
+  <td class=xl78>&nbsp;</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+  <td class=xl65></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl72 style='height:16.0pt'></td>
+  <td class=xl76>Lucros ou Prejuizos Acumulados</td>
+  <td class=xl78>&nbsp;</td>
+  <td class=xl119 align=right>-216.735,37</td>
+  <td class=xl119 align=right>241.708,98</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl72 style='height:16.0pt'></td>
+  <td class=xl76>Lucro disponivel do ano corrente</td>
+  <td class=xl72></td>
+  <td class=xl119 align=right>0,00</td>
+  <td class=xl119 align=right>0,00</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl77 style='height:16.0pt'>Total Patrimonio Liquido</td>
+  <td class=xl77 style='border-left:none'>&nbsp;</td>
+  <td class=xl77 style='border-left:none'>&nbsp;</td>
+  <td class=xl121 align=right style='border-left:none'>7.474.029,50</td>
+  <td class=xl121 align=right style='border-left:none'>6.920.554,90</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl72 height=24 style='height:18.0pt'>
+  <td height=24 class=xl101 style='height:18.0pt'>Balance Sheet Ratios</td>
+  <td class=xl101>&nbsp;</td>
+  <td class=xl101>&nbsp;</td>
+  <td class=xl102><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>            </span>(0,00)</td>
+  <td class=xl102><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>         </span>(0,00)</td>
+  <td class=xl72></td>
+  <td class=xl72></td>
+  <td class=xl72></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 colspan=8 style='height:17.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl98 height=21 style='height:16.0pt'>
+  <td height=21 class=xl96 style='height:16.0pt'>Current Ratio <font
+  class="font5">(Current Assets / Current Liabilities)</font></td>
+  <td class=xl96></td>
+  <td class=xl96></td>
+  <td class=xl97><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl97><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+ </tr>
+ <tr class=xl98 height=21 style='height:16.0pt'>
+  <td height=21 class=xl99 colspan=2 style='height:16.0pt;mso-ignore:colspan'><font
+  class="font6">Quick Ratio </font><font class="font5">( Current Assets less
+  inventory) / (Current Liabilities less bank overdraft)</font></td>
+  <td class=xl98></td>
+  <td class=xl97><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl97><span style='mso-spacerun:yes'> </span></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+ </tr>
+ <tr class=xl98 height=21 style='height:16.0pt'>
+  <td height=21 class=xl99 colspan=2 style='height:16.0pt;mso-ignore:colspan'><font
+  class="font6">Working Capital Funds<br>
+    </font><font class="font5"><span style='mso-spacerun:yes'> </span>(Current
+  Assets Less Current Liabilities)</font></td>
+  <td class=xl98></td>
+  <td class=xl100><span style='mso-spacerun:yes'>       </span>6.462.085,06 </td>
+  <td class=xl100><span style='mso-spacerun:yes'>    </span>6.920.529,41 </td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+ </tr>
+ <tr class=xl98 height=21 style='height:16.0pt'>
+  <td height=21 class=xl99 style='height:16.0pt'><font class="font6">Leverage
+  Ratio </font><font class="font5">(Total Liabilities / Total Assets)</font></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+  <td class=xl97 align=right>14%</td>
+  <td class=xl97 align=right>0%</td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+ </tr>
+ <tr class=xl98 height=43 style='height:32.0pt'>
+  <td colspan=2 height=43 class=xl105 style='height:32.0pt'>Demonstrativo de
+  Resultado</td>
+  <td class=xl79>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+  <td class=xl98></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td colspan=2 height=23 class=xl112 style='border-right:.5pt dotted gray;
+  height:17.0pt'>Período</td>
+  <td></td>
+  <td class=xl80 width=123 style='width:92pt'><span
+  style='mso-spacerun:yes'> </span>Dec-17<span
+  style='mso-spacerun:yes'> </span></td>
+  <td class=xl80 width=111 style='border-left:none;width:83pt'><span
+  style='mso-spacerun:yes'> </span>Dec-16<span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td colspan=2 height=21 class=xl114 style='border-right:.5pt dotted gray;
+  height:16.0pt'>Resultado</td>
+  <td></td>
+  <td class=xl81>&nbsp;</td>
+  <td class=xl81 style='border-left:none'>&nbsp;</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl82 style='height:16.0pt;border-top:none'>&nbsp;</td>
+  <td class=xl68 style='border-top:none'>Vendas totais</td>
+  <td></td>
+  <td class=xl83><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl73 style='height:16.0pt'>&nbsp;</td>
+  <td class=xl71>Impostos</td>
+  <td></td>
+  <td class=xl83 style='border-top:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-top:none;border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 style='height:16.0pt'></td>
+  <td class=xl84>Margem Bruta</td>
+  <td></td>
+  <td class=xl85><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl85><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 style='height:16.0pt'></td>
+  <td class=xl86>Custos dos Serviços Prestados</td>
+  <td></td>
+  <td class=xl83><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 style='height:16.0pt'></td>
+  <td class=xl84>Lucro Bruto</td>
+  <td></td>
+  <td class=xl85><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl85><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 style='height:16.0pt'></td>
+  <td class=xl87>Despesas</td>
+  <td></td>
+  <td class=xl88><span style='mso-spacerun:yes'>   </span></td>
+  <td class=xl88><span style='mso-spacerun:yes'>  </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl89 style='height:16.0pt'></td>
+  <td class=xl90>Despesas Geras e Administrativas</td>
+  <td></td>
+  <td class=xl91><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl89 style='height:16.0pt'></td>
+  <td class=xl90 style='border-top:none'>Marketing &amp; Promoção</td>
+  <td></td>
+  <td class=xl91><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-top:none;border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl89 style='height:16.0pt'></td>
+  <td class=xl90 style='border-top:none'>Despesas Operacionais</td>
+  <td></td>
+  <td class=xl91><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-top:none;border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl89 style='height:16.0pt'></td>
+  <td class=xl90 style='border-top:none'>Despesas com funcionarios</td>
+  <td></td>
+  <td class=xl91><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-top:none;border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl89 style='height:16.0pt'></td>
+  <td class=xl90 style='border-top:none'>Aluguel e ocupação</td>
+  <td></td>
+  <td class=xl91><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                   </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td class=xl83 style='border-top:none;border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>                </span>-<span
+  style='mso-spacerun:yes'>   </span></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl89 style='height:16.0pt'></td>
+  <td class=xl90 style='border-top:none'>Resultado Financeiro</td>
+  <td></td>
+  <td class=xl91><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>   </span>(458.444,35)</td>
+  <td class=xl83 style='border-top:none;border-left:none'><span
+  style='mso-spacerun:yes'> </span>R$ 241.708,98 </td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td colspan=2 height=21 class=xl116 style='height:16.0pt'>Total Despesas</td>
+  <td></td>
+  <td class=xl85><span style='mso-spacerun:yes'> </span>R$<span
+  style='mso-spacerun:yes'>   </span>(458.444,35)</td>
+  <td class=xl85><span style='mso-spacerun:yes'> </span>R$ 241.708,98 </td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td colspan=2 height=23 class=xl110 style='height:17.0pt'>Lucro/(Liquido)
+  antes dos dividendos</td>
+  <td></td>
+  <td class=xl92 style='border-top:none'><span
+  style='mso-spacerun:yes'> </span>R$<span style='mso-spacerun:yes'>  
+  </span>(458.444,35)</td>
+  <td class=xl92 style='border-top:none'><span
+  style='mso-spacerun:yes'> </span>R$ 241.708,98 </td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 colspan=2 style='height:17.0pt;mso-ignore:colspan'></td>
+  <td class=xl95><span style='mso-spacerun:yes'> </span></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 colspan=2 style='height:17.0pt;mso-ignore:colspan'></td>
+  <td class=xl95><span style='mso-spacerun:yes'> </span></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 colspan=8 style='height:16.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl93 style='height:17.0pt'>&nbsp;</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl94 style='height:17.0pt'>EDUARDO ALBERTO CHEMALLE</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl94 style='height:16.0pt'>CRC: 1SP199010/O-7</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:16.0pt'>
+  <td height=21 class=xl94 style='height:16.0pt'>CONTADOR</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=105 style='height:80.0pt;mso-xlrowspan:5'>
+  <td height=105 colspan=8 style='height:80.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl93 style='height:17.0pt'>&nbsp;</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=24 style='height:18.0pt'>
+  <td height=24 class=xl95 style='height:18.0pt'><span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl95 style='height:17.0pt'><span
+  style='mso-spacerun:yes'> </span></td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=23 style='height:17.0pt'>
+  <td height=23 class=xl95 style='height:17.0pt'>Sócio</td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=395 style='width:296pt'></td>
+  <td width=259 style='width:194pt'></td>
+  <td width=13 style='width:10pt'></td>
+  <td width=123 style='width:92pt'></td>
+  <td width=111 style='width:83pt'></td>
+  <td width=115 style='width:86pt'></td>
+  <td width=43 style='width:32pt'></td>
+  <td width=553 style='width:415pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--FIM DA SAÍDA DO 'ASSISTENTE PARA PUBLICAÇÃO COMO PÁGINA DA WEB' DO EXCEL-->
+<!----------------------------->
+</body>
+
+</html>
+
+
+{% endblock %}
